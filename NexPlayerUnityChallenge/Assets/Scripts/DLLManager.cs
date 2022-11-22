@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
+using NexPlayerSample;
+using UnityEngine.UI;
 
 public class DLLManager : MonoBehaviour
 {
@@ -14,6 +16,9 @@ public class DLLManager : MonoBehaviour
     [DllImport("NexPlayerDLL")]
     public static extern int GetLastPlayPauseTimestamp();
 
+    [SerializeField] NexPlayer nexPlayer;
+    [SerializeField] Text numberOfPlayPauseEventsTxt, lastPlayPauseTimestampTxt;
+
     void Start()
     {
         Init();
@@ -24,10 +29,13 @@ public class DLLManager : MonoBehaviour
     }
 
     public void OnPlayPauseButton(){
-        OnPlayPause(0);
+        OnPlayPause(nexPlayer.GetCurrentTime());
     }
 
     void UpdateUI(){
-        
+        numberOfPlayPauseEventsTxt.text = "Number of Play/Pause Events: " + GetNumberOfPlayPauseEvents();
+
+        float timestamp = (float)GetLastPlayPauseTimestamp()/1000f;
+        lastPlayPauseTimestampTxt.text = "Last Play/Pause Timestamp: " + timestamp + "s";
     }
 }
