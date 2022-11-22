@@ -13,10 +13,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638047247412805532
-    m_Hash: 872364182
+      ticks: 638047250295029758
+    m_Hash: 2459849339
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayerfullfeatsample/package.json:
+      m_FilePath: C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayerfullfeatsample/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637950322820000000
+      m_Hash: 2026782463
+    C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayersimplesample/package.json:
+      m_FilePath: C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayersimplesample/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637950321280000000
+      m_Hash: 2444517908
+    C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayersdk/package.json:
+      m_FilePath: C:/Users/Borja/Documents/GitHub/NexPlayerUnityChallenge/NexPlayerUnityChallenge/Packages/com.nexplayer.nxplayersdk/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637950321860000000
+      m_Hash: 4173359110
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
@@ -2582,6 +2606,163 @@ m_PackageAssets:
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.nexplayer.nxplayerfullfeatsample@file:C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayerfullfeatsample
+      testable: 1
+      isDirectDependency: 1
+      version: 2.3.0
+      source: 3
+      resolvedPath: C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayerfullfeatsample
+      assetPath: Packages/com.nexplayer.nxplayerfullfeatsample
+      name: com.nexplayer.nxplayerfullfeatsample
+      displayName: NexPlayer Full Feat Sample
+      author:
+        name: NexPlayer
+        email: info@nexplayer.com
+        url: https://nexplayersdk.com/
+      category: 
+      type: sample
+      description: Complete example of nexplayer, contains several example scenes
+        with utilities.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.nexplayer.nxplayersdk
+        version: 2.3.0
+      resolvedDependencies:
+      - name: com.nexplayer.nxplayersdk
+        version: 2.3.0
+      keywords:
+      - nexplayer
+      - videoplayer
+      - streaming
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: https://github.com/NexPlayer/NexPlayer_Unity_Plugin
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.nexplayer.nxplayersdk@file:C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayersdk
+      testable: 1
+      isDirectDependency: 1
+      version: 2.3.0
+      source: 3
+      resolvedPath: C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayersdk
+      assetPath: Packages/com.nexplayer.nxplayersdk
+      name: com.nexplayer.nxplayersdk
+      displayName: NexPlayer SDK
+      author:
+        name: NexPlayer
+        email: info@nexplayer.com
+        url: https://nexplayersdk.com/
+      category: 
+      type: tool
+      description: NexPlayerTM plugin for Unity is an interactive multiscreen streaming
+        player for Unity apps that supports both standard and 360o video playback
+        across all Android, iOS, Windows and macOS devices, including WebGL. NexPlayer's
+        Unity video plugin is the only player supporting Widevine DRM-protected HLS
+        & DASH streaming on all Android & iOS devices.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - nexplayer
+      - videoplayer
+      - streaming
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: https://github.com/NexPlayer/NexPlayer_Unity_Plugin
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.nexplayer.nxplayersimplesample@file:C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayersimplesample
+      testable: 1
+      isDirectDependency: 1
+      version: 2.3.0
+      source: 3
+      resolvedPath: C:\Users\Borja\Documents\GitHub\NexPlayerUnityChallenge\NexPlayerUnityChallenge\Packages\com.nexplayer.nxplayersimplesample
+      assetPath: Packages/com.nexplayer.nxplayersimplesample
+      name: com.nexplayer.nxplayersimplesample
+      displayName: NexPlayer Simple Sample
+      author:
+        name: NexPlayer
+        email: info@nexplayer.com
+        url: https://nexplayersdk.com/
+      category: 
+      type: sample
+      description: Contain example scenes with the minimum functionality to work.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.nexplayer.nxplayersdk
+        version: 2.3.0
+      resolvedDependencies:
+      - name: com.nexplayer.nxplayersdk
+        version: 2.3.0
+      keywords:
+      - nexplayer
+      - videoplayer
+      - streaming
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: https://github.com/NexPlayer/NexPlayer_Unity_Plugin
       hasRepository: 0
       repository:
         type: 
